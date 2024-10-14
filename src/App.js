@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import profileimage from "./assets/andy-kelly-0E_vhMVqL9g-unsplash 2.png";
+// import profileimage from "./assets/andy-kelly-0E_vhMVqL9g-unsplash 2.png";
 import FAQs from "./components/FAQs";
 import WebMobileDevelopment from "./components/WebMobileDevelopment";
 import Digital from "./components/Digital";
