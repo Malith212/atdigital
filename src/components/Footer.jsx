@@ -29,7 +29,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div>
+        <div className="text-left"> {/* Aligns content to the right */}
           <h3 className="text-xl font-semibold mb-4">Our Technologies</h3>
           <ul className="space-y-2">
             <li>ReactJS</li>
@@ -39,7 +39,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="text-left"> {/* Aligns content to the right */}
           <h3 className="text-xl font-semibold mb-4">Our Services</h3>
           <ul className="space-y-2">
             <li>Social Media Marketing</li>
@@ -49,22 +49,25 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-8 border-t border-white/40 pt-4 text-center">
-        <nav aria-label="Footer Legal Links">
-          <ul className="flex justify-center space-x-4">
-            <li>
-              <a href="#" className="hover:underline">
-                Privacy Policy
-              </a>
-            </li>
-            <li>|</li>
-            <li>
-              <a href="#" className="hover:underline">
-                Terms & Conditions
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <div className="mt-8">
+        <div className="border-t border-white/40 mx-8"></div>
+        <div className="pt-4 text-center">
+          <nav aria-label="Footer Legal Links">
+            <ul className="flex justify-center space-x-4">
+              <li>
+                <a href="#" className="hover:underline">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Terms & Conditions
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </footer>
   );

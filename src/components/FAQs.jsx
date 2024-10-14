@@ -32,7 +32,8 @@ const FAQs = () => {
             className="border rounded-md shadow-sm"
           >
             <button
-              className="w-full flex justify-between items-center p-4 text-left text-purple-700 font-semibold"
+              className={`w-full flex justify-between items-center p-4 text-left font-semibold 
+                ${activeIndex === index ? 'text-purple-600' : 'text-black'}`} // Conditional text color
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
