@@ -1,5 +1,5 @@
 import React from 'react';
-import imagePath from '../assets/image 1.png'; 
+import imagePath from '../assets/image 2.png'; 
 const WebMobileDevelopment = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center h-screen">
