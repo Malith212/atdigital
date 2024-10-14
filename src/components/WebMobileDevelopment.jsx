@@ -2,7 +2,7 @@ import React from 'react';
 import imagePath from '../assets/image 2.png'; 
 const WebMobileDevelopment = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center h-screen">
+    <div className="flex flex-col md:flex-row items-center justify-center h-screen ">
       <div className="md:w-1/2 flex justify-center">
         <img src={imagePath} alt="Web & Mobile App Development" className="w-2/3 md:w-1/2" />
       </div>

@@ -6,6 +6,7 @@ import profileimage from "./assets/andy-kelly-0E_vhMVqL9g-unsplash 2.png";
 import FAQs from "./components/FAQs";
 import WebMobileDevelopment from "./components/WebMobileDevelopment";
 import Digital from "./components/Digital";
+import ImageCom from "./components/ImageCom";
 
 
 function App() {
@@ -13,24 +14,18 @@ function App() {
     <>
       <Navbar />
 
-      <div>
-        <div className="full-width-div">
-          <img src={profileimage} className="profimage" />
-          <div className="peradata">
-            <p>
-              We crush your competitors, goals, and sales records - without the
-              B.S.
-            </p>
-            <button className="buttonstart">Get free consultation</button>
-          </div>
+      <div className="full-width-div">
+        <ImageCom />
+        <div className="webinter">
+          <WebMobileDevelopment />
+        </div>
+        <div className="digital">
+          <Digital />
+        </div>
+        <div className="faxqs">
+          <FAQs />
         </div>
       </div>
-
-
-      <WebMobileDevelopment />
-      <Digital />
-
-      <FAQs />
       <Footer />
     </>
   );

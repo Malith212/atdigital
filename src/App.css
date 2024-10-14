@@ -7,8 +7,8 @@
   background: linear-gradient(90deg, #4dca79, #1cbddd);
   width: 50%;
   padding: 40px;
-  position: relative;
-  bottom: 500px;
+  position: absolute;
+  top: 200px;
   left: 50px;
 }
 
@@ -36,56 +36,94 @@
 .buttonstart:hover {
   background-color: #d7762e;
 }
-
-@media (min-width: 768px) and (max-width: 800px) {
-    .peradata {
-        background: linear-gradient(90deg, #4dca79, #1cbddd);
-        width: 100%;
-        padding: 20px 40px;
-        position: relative;
-        top: 0px;
-        left: 0px;
-      }
-      
-      .peradata p {
-        margin: 0 0 10px;
-        text-transform: uppercase;
-        color: aliceblue;
-        font-size: 38px;
-        font-weight: 600;
-        font-style: normal;
-      }
-    
+.webinter{
+    position: relative;
+    top: -50px;
+    right: 80px;
+    padding-top: 20px;
+}
+.digital{
+    position: relative;
+    top: -300px;
+}
+.faxqs {
+  position: relative;
+  top: -350px;
 }
 
+@media (min-width: 768px) and (max-width: 800px) {
+  .peradata {
+    background: linear-gradient(90deg, #4dca79, #1cbddd);
+    width: 100%;
+    padding: 20px 40px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .webinter {
+    position: relative;
+    top: -120px;
+    right: 80px;
+  }
+
+  .peradata p {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 38px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .digital {
+    position: relative;
+    top: -290px;
+  }
+  .faxqs {
+    position: relative;
+    top: -250px;
+  }
+}
 
 @media (min-width: 320px) and (max-width: 380px) {
-    .peradata {
-        background: linear-gradient(90deg, #4dca79, #1cbddd);
-        width: 100%;
-        padding: 10px 20px;
-        position: relative;
-        top: 0px;
-        left: 0px;
-      }
-      
-      .peradata p {
-        margin: 0 0 10px;
-        text-transform: uppercase;
-        color: aliceblue;
-        font-size: 32px;
-        font-weight: 600;
-        font-style: normal;
-      }
-      .buttonstart {
-        font-size: 12px;
-        background-color: #f28d35;
-        padding: 5px 10px;
-        color: white;
-        text-transform: uppercase;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
+  .peradata {
+    background: linear-gradient(90deg, #4dca79, #1cbddd);
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .peradata p {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .buttonstart {
+    font-size: 12px;
+    background-color: #f28d35;
+    padding: 5px 10px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .digital {
+    position: relative;
+    top: -30px;
+  }
+  .faxqs {
+    position: relative;
+    top: -25px;
+  }
+  .webinter {
+    position: relative;
+    top: -20px;
+    right: -0px;
+  }
 }
