@@ -29,7 +29,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="text-left"> {/* Aligns content to the right */}
+        <div className="text-left">
           <h3 className="text-xl font-semibold mb-4">Our Technologies</h3>
           <ul className="space-y-2">
             <li>ReactJS</li>
@@ -39,7 +39,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="text-left"> {/* Aligns content to the right */}
+        <div className="text-left">
           <h3 className="text-xl font-semibold mb-4">Our Services</h3>
           <ul className="space-y-2">
             <li>Social Media Marketing</li>

@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 
-function Navbar() {
-  // State to track whether the menu is open or not
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Function to toggle the menu
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -13,7 +11,6 @@ function Navbar() {
     <nav className="bg-purple-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3">
-          {/* Your Logo */}
           <svg
             width="47"
             height="37"
@@ -39,7 +36,6 @@ function Navbar() {
         >
           <span className="sr-only">Open main menu</span>
           {menuOpen ? (
-            // Close icon
             <svg
               className="w-5 h-5"
               fill="none"
@@ -55,7 +51,6 @@ function Navbar() {
               ></path>
             </svg>
           ) : (
-            // Hamburger icon
             <svg
               className="w-5 h-5"
               aria-hidden="true"
@@ -112,6 +107,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
