@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.profimage {
+  width: 100%;
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.peradata {
+  background: linear-gradient(90deg, #4dca79, #1cbddd);
+  width: 50%;
+  padding: 40px;
+  position: relative;
+  bottom: 500px;
+  left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.peradata p {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buttonstart {
+  font-size: 18px;
+  background-color: #f28d35;
+  padding: 10px 20px;
   color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonstart:hover {
+  background-color: #d7762e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 768px) and (max-width: 800px) {
+    .peradata {
+        background: linear-gradient(90deg, #4dca79, #1cbddd);
+        width: 100%;
+        padding: 20px 40px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+      
+      .peradata p {
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        color: aliceblue;
+        font-size: 38px;
+        font-weight: 600;
+        font-style: normal;
+      }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 380px) {
+    .peradata {
+        background: linear-gradient(90deg, #4dca79, #1cbddd);
+        width: 100%;
+        padding: 10px 20px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+      
+      .peradata p {
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        color: aliceblue;
+        font-size: 32px;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .buttonstart {
+        font-size: 12px;
+        background-color: #f28d35;
+        padding: 5px 10px;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
 }
