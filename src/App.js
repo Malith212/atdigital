@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import profileimage from "./assets/andy-kelly-0E_vhMVqL9g-unsplash 2.png";
+import FAQs from "./components/FAQs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <img src={profileimage} className="full-width" />
         </div>
       </div>
+      <FAQs />
       <Footer />
     </>
   );
