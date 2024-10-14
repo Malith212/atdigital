@@ -55,13 +55,13 @@ const Footer = () => {
           <nav aria-label="Footer Legal Links">
             <ul className="flex justify-center space-x-4">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/privacy-policy" className="hover:underline"> {/* Privacy Policy Page */}
                   Privacy Policy
                 </a>
               </li>
               <li>|</li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/terms-and-conditions" className="hover:underline"> {/* Terms & Conditions Page */}
                   Terms & Conditions
                 </a>
               </li>
